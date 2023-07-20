@@ -1,0 +1,39 @@
+.main{
+    /* border:2px solid blue; */
+    height:auto;
+    margin: 5px;
+    padding:5px;
+}
+.main:hover{
+    background-color: rgb(233, 229, 229);
+}
+
+.first{
+    border-bottom: 2px solid rgb(116, 113, 113);
+    height:25px;
+    font-size: 17px;
+    font-weight: 550;
+    
+
+}
+.second{
+    margin-top:5px;
+    /* padding:5px; */
+}
+.company{
+    font-size: 16px;
+    font-weight: 550;
+    color:rgb(85, 83, 83)
+}
+.role{
+    font-size: 16px;
+    font-weight: 550;
+    color:rgb(116, 113, 113)
+
+}
+.ach{
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(71, 69, 69)
+
+}  

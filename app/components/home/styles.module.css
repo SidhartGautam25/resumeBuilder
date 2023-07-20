@@ -60,3 +60,7 @@
   border-radius: 20px;
   object-fit: cover;
 }
+.link {
+  text-decoration: none;
+  color: rgb(241, 240, 240);
+}

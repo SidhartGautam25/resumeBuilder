@@ -1,6 +1,7 @@
 import styles from "./styles.module.css";
 import ind1 from "../../../public/4261198.jpg";
 import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.main}>
@@ -12,15 +13,17 @@ export default function Home() {
           </p>
           <p className={styles.para2}>
             Resume writing can be stressful, confusing, and time-consuming if
-            you do it all on your own. With our Resume Maker, it’s quick,
+            you do it all on your own. With our Resume Maker, its quick,
             pain-free, and effective.
           </p>
           <button type="button" className={styles.button}>
-            Create your Resume
+            <Link className={styles.link} href="/templates">
+              Create your Resume
+            </Link>
           </button>
         </div>
         <div className={styles.com2}>
-          <Image className={styles.cardimg} src={ind1} />
+          <Image className={styles.cardimg} src={ind1} alt="loding..." />
         </div>
       </div>
     </div>

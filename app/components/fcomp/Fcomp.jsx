@@ -15,13 +15,13 @@ export default function Index() {
 
           <div className={styles.cardmain}>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind1} />
+              <Image className={styles.cardimg} src={ind1} alt="loding..." />
             </div>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind3} />
+              <Image className={styles.cardimg} src={ind3} alt="loding..." />
             </div>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind1} />
+              <Image className={styles.cardimg} src={ind1} alt="loding..." />
             </div>
           </div>
 

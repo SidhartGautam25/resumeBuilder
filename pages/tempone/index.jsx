@@ -299,11 +299,10 @@ export default function Index() {
 
                             </div>
                             <div className={styles.operation}>
-                                {/* <ReactToPrint
-                                    trigger={() => <button>Download</button>}
-                                    content={() => resumeref.current}
-                                /> */}
+                                
+                                
                                 <button onClick={handlePrint}>Download</button>
+                                <div></div>
 
                             </div>
                         </div>

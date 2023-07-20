@@ -1,18 +1,18 @@
 import { useRef, useState } from 'react'
 import {ReactToPrint,useReactToPrint} from 'react-to-print';
 import styles from './tempone.module.css'
-import Onetwo from '@/app/components/temponetwo/Onetwo';
-import Formtwo from '@/app/components/formtwo/formtwo';
-import Onethree from '@/app/components/temponethree/Onethree';
-import Formthree from '@/app/components/formthree/Formthree';
-import Onefour from '@/app/components/temponefour/Onefour';
-import Formfour from '@/app/components/formfour/Formfour';
-import Onefive from '@/app/components/temponefive/Onefive';
-import Onesix from '@/app/components/temponesix/Onesix';
-import Oneseven from '@/app/components/temponeseven/Oneseven';
-import Formfive from '@/app/components/formfive/Formfive';
-import Formsix from '@/app/components/formsix/Formsix';
-import Formseven from '@/app/components/formseven/Formseven';
+import Onetwo from '@/app/components/tempone/temponetwo/Onetwo';
+import Formtwo from '@/app/components/tempone/formtwo/formtwo';
+import Onethree from '@/app/components/tempone/temponethree/Onethree';
+import Formthree from '@/app/components/tempone/formthree/Formthree';
+import Onefour from '@/app/components/tempone/temponefour/Onefour';
+import Formfour from '@/app/components/tempone/formfour/Formfour';
+import Onefive from '@/app/components/tempone/temponefive/Onefive';
+import Onesix from '@/app/components/tempone/temponesix/Onesix';
+import Oneseven from '@/app/components/tempone/temponeseven/Oneseven';
+import Formfive from '@/app/components/tempone/formfive/Formfive';
+import Formsix from '@/app/components/tempone/formsix/Formsix';
+import Formseven from '@/app/components/tempone/formseven/Formseven';
 export default function Index() {
 
     //for first form
@@ -301,7 +301,7 @@ export default function Index() {
                             <div className={styles.operation}>
                                 
                                 
-                                <button onClick={handlePrint}>Download</button>
+                                <button className={styles.downbutton} onClick={handlePrint}>Download</button>
                                 <div></div>
 
                             </div>

@@ -1,0 +1,49 @@
+.slidermain {
+  height: 320px;
+  width: 100%;
+}
+.slider {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 92%;
+  height: 250px;
+  margin: auto;
+  margin-left: 60px;
+}
+.ourclients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 10px;
+}
+.slidercom {
+  width: 250px;
+  height: 210px;
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+}
+.logoimg {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin: 10px;
+}
+.slidertrack {
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 50s linear infinite;
+  /* margin-top: 10px; */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}

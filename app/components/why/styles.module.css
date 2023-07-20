@@ -1,0 +1,49 @@
+.main {
+  height: 430px;
+  width: 100%;
+  /* background-color: rgb(159, 161, 161); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  /* border: 2px solid green; */
+  background: url(../../../public/v1016-a-08.jpg);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  /* text-decoration: underline; */
+}
+/* .title h1 {
+  font-weight: 400;
+} */
+.container {
+  height: 410px;
+  width: 1400px;
+  margin: 20px;
+  /* border: 2px solid red; */
+  /* background-color: white; */
+}
+
+.cardmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid yellow; */
+  height: 300px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  margin: 15px;
+  /* border: 2px solid black; */
+  width: 33%;
+  height: 220px;
+}
+.card p {
+  font-size: 18px;
+}

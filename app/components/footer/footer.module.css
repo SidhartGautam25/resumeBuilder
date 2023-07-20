@@ -1,0 +1,133 @@
+.footermain {
+  /* border:2px solid green;*/
+  background-image: linear-gradient(to right, black, rgb(13, 3, 35), black);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 30vh;
+}
+.footlogo {
+  /*border:2px solid yellow;*/
+  width: 30%;
+  height: 100%;
+}
+.footsecond {
+  /* border:2px solid red;*/
+  height: 80%;
+  width: 25vw;
+}
+.footfirst {
+  /*border:2px solid red;*/
+  height: 80%;
+  width: 25vw;
+}
+.footthird {
+  /* border:2px solid brown; */
+  height: 80%;
+  width: 25%;
+}
+.foottitle {
+  font-size: 2.7vh;
+  height: 3.2vh;
+  width: 12vh;
+  border-bottom: 1.5px solid white;
+  margin-bottom: 2.3vh;
+}
+.foottitle1 {
+  font-size: 2.7vh;
+  height: 3.2vh;
+  width: 8.5vh;
+  border-bottom: 1.5px solid white;
+  margin-bottom: 2vh;
+}
+.foottitle4 {
+  font-size: 2.7vh;
+  height: 3.2vh;
+  width: auto;
+  border-bottom: 1.5px solid white;
+  margin-bottom: 2vh;
+}
+
+.foottitle2 {
+  font-size: 2.7vh;
+  height: 3.2vh;
+  width: 120px;
+  border-bottom: 1.5px solid white;
+  margin-bottom: 2vh;
+}
+
+.footeritem {
+  font-size: 2vh;
+}
+.footfirst {
+  /*border:2px solid rgb(18, 228, 168);*/
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.socialitem {
+  color: white;
+  /*border:2px solid pink;*/
+  margin: 5px;
+  font-size: 1.3rem;
+}
+
+.sociallink {
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .footermain {
+    flex-direction: column;
+    height: auto;
+  }
+  .footfirst {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 190px;
+  }
+  .footsecond {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 190px;
+  }
+  .footthird {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 190px;
+  }
+  .foottitle4 {
+    width: auto;
+  }
+  .socialitem {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .foottitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+  .foottitle2 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foottitle1 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

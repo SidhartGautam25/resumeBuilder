@@ -16,6 +16,9 @@ export default function Footer() {
             <FaInstagram />
           </div>
           <div className={styles.socialitem}>
+            <FaFacebookF />
+          </div>
+          <div className={styles.socialitem}>
             <FaLinkedin />
           </div>
           <div className={styles.socialitem}>

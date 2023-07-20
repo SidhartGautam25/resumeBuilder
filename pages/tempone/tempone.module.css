@@ -1,6 +1,6 @@
 .mainclass{
     border:2px solid red;
-    width:95vw;
+    width:90vw;
     height:98vh;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@
 }
 .template{
     border:2px solid blue;
-    width:70%;
-    min-height:120vh;
+    width:90%;
+    min-height:90vh;
     margin: 5px;
     padding-top: 50px;
     padding-bottom: 50px;

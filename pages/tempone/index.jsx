@@ -13,6 +13,7 @@ import Oneseven from '@/app/components/tempone/temponeseven/Oneseven';
 import Formfive from '@/app/components/tempone/formfive/Formfive';
 import Formsix from '@/app/components/tempone/formsix/Formsix';
 import Formseven from '@/app/components/tempone/formseven/Formseven';
+import Msone from '@/app/components/tempone/msone/Msone';
 export default function Index() {
 
     //for first form
@@ -205,6 +206,51 @@ export default function Index() {
         `,
       });
 
+      const [sections,setSections]=useState(
+        [
+            "Experience",
+            "Skills",
+            "Education",
+            "Language",
+            "Awards",
+            "Certificates"
+        ]
+      )
+      const [arr,setArr]=useState([true,true,true,true,true,true])
+      function setsections(ind,str){
+        console.log("bhai yhi ho tum")
+        
+        if(arr[ind]===true){
+            console.log("hata do isko")
+            const updated = arr.map((val,i) => {
+                if (i != ind) {
+                  // No change
+                  return val;
+                } else {
+                  // Return a new circle 50px below
+                  return false;
+                }
+              });
+              // Re-render with the new array
+              setArr(updated);
+           
+        }else{
+            console.log("wapas laao isko")
+            const updated = arr.map((val,i) => {
+                if (i != ind) {
+                  // No change
+                  return val;
+                } else {
+                  // Return a new circle 50px below
+                  return true;
+                }
+              });
+              // Re-render with the new array
+              setArr(updated);
+
+        }
+      }
+
 
 
     return (
@@ -287,12 +333,12 @@ export default function Index() {
                                         {names.gmail} | {names.city},{names.state}
                                     </div>
                                 </div>
-                                <Onetwo data={exp} secdiv={secdiv} setsecdiv={setsecdiv} setind={setind} />
-                                <Onethree skill={skill} addskill={addskill} removeskill={removeskill} setthirddiv={setthirddiv} />
-                                <Onefour data={edu} fourdiv={fourdiv} setfourdiv={setfourdiv} setind={seteduind} />
-                                <Onefive skill={lang} addskill={addlang} removeskill={removelang} setfifthdiv={setfifthdiv} />
-                                <Onesix skill={awards} addskill={addawards} removeskill={removeawards} setsixthdiv={setsixthdiv} />
-                                <Oneseven skill={cert} addskill={addcert} removeskill={removecert} setsevendiv={setsevendiv} />
+                                {arr[0] && <Onetwo data={exp} secdiv={secdiv} setsecdiv={setsecdiv} setind={setind} />}
+                                {arr[1] && <Onethree skill={skill} addskill={addskill} removeskill={removeskill} setthirddiv={setthirddiv} />}
+                                {arr[2] && <Onefour data={edu} fourdiv={fourdiv} setfourdiv={setfourdiv} setind={seteduind} />}
+                                {arr[3]&& <Onefive skill={lang} addskill={addlang} removeskill={removelang} setfifthdiv={setfifthdiv} />}
+                                {arr[4]&&<Onesix skill={awards} addskill={addawards} removeskill={removeawards} setsixthdiv={setsixthdiv} />}
+                                {arr[5] &&<Oneseven skill={cert} addskill={addcert} removeskill={removecert} setsevendiv={setsevendiv} />}
 
 
 
@@ -302,7 +348,10 @@ export default function Index() {
                                 
                                 
                                 <button className={styles.downbutton} onClick={handlePrint}>Download</button>
-                                <div></div>
+                                
+                                <Msone sections={sections} setsections={setsections} arr={arr}/>
+
+                                
 
                             </div>
                         </div>

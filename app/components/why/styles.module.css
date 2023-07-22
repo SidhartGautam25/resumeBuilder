@@ -47,3 +47,29 @@
 .card p {
   font-size: 18px;
 }
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 2.5vw;
+  }
+  .cardmain {
+    flex-direction: column;
+    height: auto;
+  }
+  .card {
+    width: 80%;
+    height: auto;
+  }
+  .main {
+    height: auto;
+  }
+  .container {
+    height: auto;
+  }
+  .card h2 {
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 16px;
+  }
+}

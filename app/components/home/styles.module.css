@@ -64,3 +64,23 @@
   text-decoration: none;
   color: rgb(241, 240, 240);
 }
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .com2 {
+    display: none;
+  }
+  .cardimg {
+    display: none;
+  }
+  .comp1 {
+    height: auto;
+    width: 70%;
+  }
+}

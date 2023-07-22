@@ -13,7 +13,7 @@ import ind9 from "../../../public/social.png";
 export default function Slider() {
   return (
     <div className={styles.slidermain}>
-      <div className={styles.ourclients}>our clients</div>
+      <div className={styles.ourclients}>our clients from</div>
       <div className={styles.slider}>
         <div className={styles.slidertrack}>
           <div className={styles.slidercom}>

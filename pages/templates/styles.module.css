@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .container {
   height: auto;
@@ -49,4 +49,20 @@
   align-items: center;
   margin: 5px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .cardmain {
+    flex-direction: column;
+  }
+  .container {
+    width: 98%;
+  }
+  .cardimg {
+    height: 50vh;
+    width: 70vw;
+  }
+  .title {
+    font-size: 16px;
+  }
 }

@@ -19,29 +19,29 @@ export default function Index() {
           </div>
           <div className={styles.cardmain}>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind1} />
+              <Image className={styles.cardimg} src={ind1} alt="loding..." />
               <span>Template Name</span>
             </div>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind2} />
+              <Image className={styles.cardimg} src={ind2} alt="loding..." />
               <span>Template Name</span>
             </div>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind1} />
+              <Image className={styles.cardimg} src={ind1} alt="loding..." />
               <span>Template Name</span>
             </div>
           </div>
           <div className={styles.cardmain}>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind2} />
+              <Image className={styles.cardimg} src={ind2} alt="loding..." />
               <span>Template Name</span>
             </div>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind1} />
+              <Image className={styles.cardimg} src={ind1} alt="loding..." />
               <span>Template Name</span>
             </div>
             <div className={styles.card}>
-              <Image className={styles.cardimg} src={ind2} />
+              <Image className={styles.cardimg} src={ind2} alt="loding..." />
               <span>Template Name</span>
             </div>
           </div>

@@ -66,3 +66,22 @@
   text-decoration: none;
   color: rgb(241, 240, 240);
 }
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 10px;
+  }
+  .container {
+    width: 90vw;
+  }
+  .cardmain {
+    flex-direction: column;
+  }
+  .cardimg {
+    width: 70vw;
+    height: 50vh;
+  }
+  .button {
+    font-size: 16px;
+  }
+}

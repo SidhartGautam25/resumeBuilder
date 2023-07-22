@@ -13,62 +13,62 @@ import ind9 from "../../../public/social.png";
 export default function Slider() {
   return (
     <div className={styles.slidermain}>
-      <div className={styles.ourclients}>our clients</div>
+      <div className={styles.ourclients}>our clients from</div>
       <div className={styles.slider}>
         <div className={styles.slidertrack}>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind1} />
+            <Image className={styles.logoimg} src={ind1} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind2} />
+            <Image className={styles.logoimg} src={ind2} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind3} />
+            <Image className={styles.logoimg} src={ind3} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind4} />
+            <Image className={styles.logoimg} src={ind4} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind5} />
+            <Image className={styles.logoimg} src={ind5} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind6} />
+            <Image className={styles.logoimg} src={ind6} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind7} />
+            <Image className={styles.logoimg} src={ind7} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind8} />
+            <Image className={styles.logoimg} src={ind8} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind9} />
+            <Image className={styles.logoimg} src={ind9} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind1} />
+            <Image className={styles.logoimg} src={ind1} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind2} />
+            <Image className={styles.logoimg} src={ind2} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind3} />
+            <Image className={styles.logoimg} src={ind3} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind4} />
+            <Image className={styles.logoimg} src={ind4} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind5} />
+            <Image className={styles.logoimg} src={ind5} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind6} />
+            <Image className={styles.logoimg} src={ind6} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind7} />
+            <Image className={styles.logoimg} src={ind7} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind8} />
+            <Image className={styles.logoimg} src={ind8} alt="loding..." />
           </div>
           <div className={styles.slidercom}>
-            <Image className={styles.logoimg} src={ind9} />
+            <Image className={styles.logoimg} src={ind9} alt="loding..." />
           </div>
         </div>
       </div>

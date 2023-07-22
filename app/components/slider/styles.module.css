@@ -47,3 +47,35 @@
     transform: translateX(calc(-250px * 9));
   }
 }
+@media (max-width: 480px) {
+  .slider {
+    margin-left: 15px;
+    height: 130px;
+  }
+  .logoimg {
+    height: 50px;
+    width: 50px;
+  }
+  .ourclients {
+    font-size: 20px;
+  }
+  .slidermain {
+    height: auto;
+  }
+  .slidercom {
+    height: auto;
+    width: auto;
+  }
+  .slidertrack {
+    width: calc(50px * 18);
+    animation: scroll 30s linear infinite;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-50px * 9));
+    }
+  }
+}

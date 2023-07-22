@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import {ReactToPrint,useReactToPrint} from 'react-to-print';
+import { ReactToPrint, useReactToPrint } from 'react-to-print';
 import styles from './tempone.module.css'
 import Onetwo from '@/app/components/tempone/temponetwo/Onetwo';
 import Formtwo from '@/app/components/tempone/formtwo/formtwo';
@@ -178,7 +178,7 @@ export default function Index() {
     }
 
 
-    const resumeref=useRef();
+    const resumeref = useRef();
     const [rencon, setRencon] = useState(true);
     function check() {
         if (!firstdiv && !secdiv && !thirddiv && !fourdiv && !fifthdiv && !sixthdiv && !sevendiv) {
@@ -204,9 +204,9 @@ export default function Index() {
             
           }
         `,
-      });
+    });
 
-      const [sections,setSections]=useState(
+    const [sections, setSections] = useState(
         [
             "Experience",
             "Skills",
@@ -215,41 +215,68 @@ export default function Index() {
             "Awards",
             "Certificates"
         ]
-      )
-      const [arr,setArr]=useState([true,true,true,true,true,true])
-      function setsections(ind,str){
+    )
+    const [arr, setArr] = useState([true, true, true, true, true, true])
+    const [copy, setCopy] = useState(["exp", "skills", "edu", "lang", "awards", "cert"]);
+
+    function setsections(ind, str) {
         console.log("bhai yhi ho tum")
-        
-        if(arr[ind]===true){
+
+        if (arr[ind] === true) {
             console.log("hata do isko")
-            const updated = arr.map((val,i) => {
+            const updated = arr.map((val, i) => {
                 if (i != ind) {
-                  // No change
-                  return val;
+                    // No change
+                    return val;
                 } else {
-                  // Return a new circle 50px below
-                  return false;
+                    // Return a new circle 50px below
+                    return false;
                 }
-              });
-              // Re-render with the new array
-              setArr(updated);
-           
-        }else{
+            });
+            // Re-render with the new array
+            setArr(updated);
+
+        } else {
             console.log("wapas laao isko")
-            const updated = arr.map((val,i) => {
+            const updated = arr.map((val, i) => {
                 if (i != ind) {
-                  // No change
-                  return val;
+                    // No change
+                    return val;
                 } else {
-                  // Return a new circle 50px below
-                  return true;
+                    // Return a new circle 50px below
+                    return true;
                 }
-              });
-              // Re-render with the new array
-              setArr(updated);
+            });
+            // Re-render with the new array
+            setArr(updated);
 
         }
-      }
+    }
+
+    const [dragitemindex, setDragitemindex] = useState();
+    const [dragoveritemindex, setDragoveritemindex] = useState();
+
+    function dragstart(e, index) {
+        setDragitemindex(index);
+    }
+    function dragover(e) {
+        e.preventDefault();
+    }
+    function handledrop(index) {
+        const updated = [...copy];
+        const dragitem = updated.splice(dragitemindex, 1);
+        updated.splice(dragoveritemindex, 0, dragitem);
+        setCopy(updated);
+
+    }
+    function dragenter(index) {
+        setDragoveritemindex(index);
+    }
+    function dragend() {
+        setDragitemindex(undefined);
+        setDragoveritemindex(undefined);
+    }
+
 
 
 
@@ -333,25 +360,89 @@ export default function Index() {
                                         {names.gmail} | {names.city},{names.state}
                                     </div>
                                 </div>
-                                {arr[0] && <Onetwo data={exp} secdiv={secdiv} setsecdiv={setsecdiv} setind={setind} />}
-                                {arr[1] && <Onethree skill={skill} addskill={addskill} removeskill={removeskill} setthirddiv={setthirddiv} />}
-                                {arr[2] && <Onefour data={edu} fourdiv={fourdiv} setfourdiv={setfourdiv} setind={seteduind} />}
-                                {arr[3]&& <Onefive skill={lang} addskill={addlang} removeskill={removelang} setfifthdiv={setfifthdiv} />}
-                                {arr[4]&&<Onesix skill={awards} addskill={addawards} removeskill={removeawards} setsixthdiv={setsixthdiv} />}
-                                {arr[5] &&<Oneseven skill={cert} addskill={addcert} removeskill={removecert} setsevendiv={setsevendiv} />}
 
 
+                                {
+                                    copy.map((ele, i) => (
+
+
+                                        
+                                        <div key={i}>
+                                            {
+                                        ele == "edu" && <div draggable onDragStart={(e) => dragstart(e, i)} onDragOver={(e) => dragover(e)} onDrop={() => handledrop(i)}
+                                            onDragEnter={() => dragenter(i)} onDragEnd={() => { dragend() }}>
+                                            {arr[0] && <Onetwo data={exp} secdiv={secdiv} setsecdiv={setsecdiv} setind={setind} />}
+                                        </div>}
+                                            {
+                                        ele == "skills" && <div draggable onDragStart={(e) => dragstart(e, i)} onDragOver={(e) => dragover(e)} onDrop={() => handledrop(i)}
+                                            onDragEnter={() => dragenter(i)} onDragEnd={() => { dragend() }}>
+
+                                            {arr[1] && <Onethree skill={skill} addskill={addskill} removeskill={removeskill} setthirddiv={setthirddiv} />}
+                                        </div>}{
+
+                                        ele == "exp" && <div draggable onDragStart={(e) => dragstart(e, i)} onDragOver={(e) => dragover(e)} onDrop={() => handledrop(i)}
+                                            onDragEnter={() => dragenter(i)} onDragEnd={() => { dragend() }}>
+                                            {arr[2] && <Onefour data={edu} fourdiv={fourdiv} setfourdiv={setfourdiv} setind={seteduind} />}
+                                        </div>}{
+
+                                         ele == "lang" && <div draggable onDragStart={(e) => dragstart(e, i)} onDragOver={(e) => dragover(e)} onDrop={() => handledrop(i)}
+                                            onDragEnter={() => dragenter(i)}  onDragEnd={() => { dragend() }}>
+                                            {arr[3] && <Onefive skill={lang} addskill={addlang} removeskill={removelang} setfifthdiv={setfifthdiv} />}
+                                        </div>}{
+
+
+                                        ele == "awards" && <div draggable onDragStart={(e) => dragstart(e, i)} onDragOver={(e) => dragover(e)} onDrop={() => handledrop(i)}
+                                            onDragEnter={() => dragenter(i)} onDragEnd={() => { dragend() }}>
+                                            {arr[4] && <Onesix skill={awards} addskill={addawards} removeskill={removeawards} setsixthdiv={setsixthdiv} />}
+                                        </div>}{
+
+                                        ele == "cert" && <div draggable onDragStart={(e) => dragstart(e, i)} onDragOver={(e) => dragover(e)} onDrop={() => handledrop(i)}
+                                            onDragEnter={() => dragenter(i)} onDragEnd={() => { dragend() }}>
+                                             {arr[5] && <Oneseven skill={cert} addskill={addcert} removeskill={removecert} setsevendiv={setsevendiv} />}
+                                        </div>}
+
+
+                                     </div>
+                                    )
+                                    )
+                                }
+
+
+
+
+
+
+
+
+{/* 
+
+
+
+                                <div >
+                                    {arr[2] && <Onefour data={edu} fourdiv={fourdiv} setfourdiv={setfourdiv} setind={seteduind} />}
+                                </div>
+                                <div >
+                                    {arr[3] && <Onefive skill={lang} addskill={addlang} removeskill={removelang} setfifthdiv={setfifthdiv} />}
+                                </div>
+                                <div >
+                                    {arr[4] && <Onesix skill={awards} addskill={addawards} removeskill={removeawards} setsixthdiv={setsixthdiv} />}
+                                </div>
+                                <div >
+                                    {arr[5] && <Oneseven skill={cert} addskill={addcert} removeskill={removecert} setsevendiv={setsevendiv} />}
+                                </div>
+
+ */}
 
 
                             </div>
                             <div className={styles.operation}>
-                                
-                                
-                                <button className={styles.downbutton} onClick={handlePrint}>Download</button>
-                                
-                                <Msone sections={sections} setsections={setsections} arr={arr}/>
 
-                                
+
+                                <button className={styles.downbutton} onClick={handlePrint}>Download</button>
+
+                                <Msone sections={sections} setsections={setsections} arr={arr} />
+
+
 
                             </div>
                         </div>

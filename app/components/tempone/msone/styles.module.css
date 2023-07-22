@@ -1,0 +1,90 @@
+.main{
+    width:95%;
+    border:2px solid rgb(161, 161, 161);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height:500px; */
+}
+.sidebar{
+    /* border:1px solid red; */
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.change{
+    width:95%;
+    border:2px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius:5px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    font-size: 20px;
+}
+.first{
+    width:96%;
+    height:40px;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.second{
+    /* border:2px solid blue; */
+    width:98%;
+}
+.rows{
+    border:2px solid rgb(168, 166, 166);
+    width:98%;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin:2px;
+}
+.rowname{
+   /* border:2px solid black; */
+   width:90%;
+   height:98%;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+}
+.rowother{
+    /* border:2px solid pink; */
+    width:8%;
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check{
+    border:1px solid black;
+    background-color: black;
+    border-radius:10px;
+    margin: 5px;
+    padding: 5px;
+}
+.uncheck{
+    border:1px solid black;
+    border-radius:10px;
+    margin: 5px;
+    padding: 5px;
+
+}

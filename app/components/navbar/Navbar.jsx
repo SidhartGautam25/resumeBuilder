@@ -1,5 +1,5 @@
 import styles from "./navbar.module.css";
-// import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import navsvg from "../../../public/navsvg.svg";
 import { useEffect, useState } from "react";
@@ -24,9 +24,9 @@ export default function Navbar() {
   return (
     <div className={styles.header}>
       <div className={styles.st}>
-        <a href="#" className={styles.logo}>
+        <Link className={styles.logo} href="/">
           <span>ResumeBuilder</span>
-        </a>
+        </Link>
         <div
           className={styles.main}
           onClick={() => {
@@ -40,15 +40,19 @@ export default function Navbar() {
       {show && (
         <ul className={styles.navbar}>
           <li>
-            <a href="/" className={styles.active}>
+            <Link className={styles.active} href="/">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/">Abouts Us</a>
+            <Link className={styles.active} href="/">
+              About Us
+            </Link>
           </li>
           <li>
-            <a href="/templates">Templates</a>
+            <Link className={styles.active} href="/templates">
+              Templates
+            </Link>
           </li>
         </ul>
       )}

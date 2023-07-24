@@ -19,7 +19,7 @@ export default function Navbar() {
     if (wwidth > 480) {
       setShow(true);
     }
-  });
+  },[]);
 
   return (
     <div className={styles.header}>

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 5px;
+}
+.icons{
+    display: flex;
+    
+}
+.icons svg{
+    font-size: 18px;
+}
+.icons span{
+    margin-left: 5px;
+}

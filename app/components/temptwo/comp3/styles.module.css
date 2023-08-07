@@ -1,0 +1,24 @@
+.title {
+  font-size: 19px;
+}
+.date {
+  /* border: 2px solid rgb(187, 255, 0); */
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+.expe {
+  display: flex;
+}
+.info {
+  /* border: 2px solid rgb(0, 8, 255); */
+  width: 85%;
+}
+.position {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.point {
+  padding-left: 16px;
+}

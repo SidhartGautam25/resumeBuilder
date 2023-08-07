@@ -1,0 +1,14 @@
+.title {
+  font-size: 19px;
+}
+.date {
+  display: flex;
+  width: 15%;
+}
+.info {
+  width: 85%;
+}
+.expe {
+  display: flex;
+  margin-bottom: 5px;
+}

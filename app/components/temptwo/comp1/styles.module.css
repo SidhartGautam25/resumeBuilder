@@ -1,0 +1,14 @@
+.name {
+  /* border: 2px solid red; */
+  height: 60px;
+  width: 98.5%;
+  margin: 5px;
+  background-color: rgb(69, 76, 85);
+  color: white;
+}
+.name h2 {
+  margin: 5px;
+}
+.name span {
+  margin: 5px;
+}

@@ -7,14 +7,6 @@ export default function Formthree({
   addskill,
   removeskill,
 }) {
-  // console.log("here ");
-  // console.log(data)
-  console.log(skills);
-  console.log("setthirddiv");
-  console.log(setthirddiv);
-  console.log("addskill");
-  console.log(addskill);
-
   const [sk, setSk] = useState("");
   const handleChange = (e) => {
     setSk(e.target.value);

@@ -1,0 +1,23 @@
+.container{
+    margin: 10px;
+    width: 100%;
+
+}
+.container h3{
+    margin-top: 35px;
+    font-weight: 700;
+}
+.container .work{
+    font-size: 18px;
+    font-weight: bold;
+}
+.icon{
+    margin-top: 3px;
+}
+.icon span{
+    font-weight: 500;
+}
+.stay{
+    padding: 4px;
+    width: 97%;
+}

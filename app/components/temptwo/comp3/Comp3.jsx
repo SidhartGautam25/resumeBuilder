@@ -16,7 +16,136 @@ export default function Comp3() {
           <ul className={styles.point}>
             <li>
               Designing user interfaces with HTML, CSS, JavaScript. JavaScript
-              is most used language in web devlopment
+              is most used language in web devlopment Designing user interfaces
+              with HTML, CSS, JavaScript. JavaScript is most used language in
+              web devlopmentDesigning user interfaces with HTML, CSS,
+              JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopmentDesigning user interfaces with HTML, CSS, JavaScript.
+              JavaScript is most used language in web devlopmentDesigning user
+              interfaces with HTML, CSS, JavaScript. JavaScript is most used
+              language in web devlopmentDesigning user interfaces with HTML,
+              CSS, JavaScript. JavaScript is most used language in web
+              devlopment
             </li>
             <li>Developing server-side logic and databases.</li>
             <li>Creating websites that adapt to various devices.</li>
